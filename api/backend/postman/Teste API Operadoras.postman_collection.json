@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "e522769c-5ca1-465f-9f10-c843fff7bd5d",
+		"name": "Teste API Operadoras",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43662655",
+		"_collection_link": "https://fernandofutila.postman.co/workspace/Fernando-Futila's-Workspace~2fe471bc-c760-4f3d-8f1f-ce416684d6f9/collection/43662655-e522769c-5ca1-465f-9f10-c843fff7bd5d?action=share&source=collection_link&creator=43662655"
+	},
+	"item": [
+		{
+			"name": "buscar operadora",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/search/?q=unimed",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"search",
+						""
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "unimed"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
