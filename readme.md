@@ -16,6 +16,12 @@
 - Estruture e importe os dados para um banco **MySQL** ou **PostgreSQL**.
 - Desenvolva queries analíticas para analisar despesas de operadoras.
 
+q1.sql: Cria as tabelas necessárias para armazenar os dados.
+
+q2.sql: Importa os dados para o banco, garantindo o encoding correto.
+
+q3.sql: Elabora queries analíticas para identificar as operadoras com maiores despesas.
+
 ### 4️⃣ Teste de API
 
 - Desenvolva uma **API** em **Python** para buscar operadoras no CSV cadastral.
