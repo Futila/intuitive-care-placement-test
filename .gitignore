@@ -1,0 +1,21 @@
+# Ignorar diretório de saída dos PDFs e arquivos ZIP
+output/
+
+# Ignorar arquivos temporários e de cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar ambiente virtual (caso use venv)
+venv/
+.env/
+
+# Ignorar logs e arquivos de debug
+logs/
+*.log
+
+# Ignorar configurações do VSCode
+.vscode/
+
+
